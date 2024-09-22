@@ -3,11 +3,9 @@
         font-size: 0.9rem;
         line-height: 1.8rem;
     }
-
     .grid-3{
         gap: 1rem;
     }
-
     .skills-right ul li {
         font-size: 0.9rem;
     }
@@ -18,19 +16,15 @@
         display: block;
         cursor: pointer;
     }
-
     .toggle-burger .line-1 {
         transform: rotate(-45deg) translate(-5px, 7px);
     }
-
     .toggle-burger .line-2 {
         opacity: 0;
     }
-
     .toggle-burger .line-3{
         transform: rotate(45deg) translate(-5px, -7px);
     }
-
     /* Navigation */
     nav {
         position: fixed;
@@ -53,12 +47,10 @@
         flex-direction: column;
         justify-content: center;
     }
-
     /* buat class nav-active , buat balikin ke posisi awal, ini akan di kasih ke navigasi humberger */
     .nav-active {
         transform: translateX(0);
     }
-
     :root {
         --sectionPadding: 4rem 0;
     }
@@ -70,7 +62,6 @@
     .pre-title {
         font-size: 0.8rem;
     }
-
     /* Hero Section */
     #hero {
         grid-template-columns: 1fr;

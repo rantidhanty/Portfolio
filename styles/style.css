@@ -60,8 +60,8 @@ a {
 .btn:hover{
     box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
 }
-/* titles */
 
+/* titles */
 .section-title{
     margin: 1rem 0 4rem;
     font-size: 2rem;
@@ -88,7 +88,6 @@ a {
 }
 
 /* layout */
-
 .grid-3{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /*bagian responsive responsive*/
@@ -122,6 +121,7 @@ nav ul li{
 nav ul li a{
     color: var(--primaryTextColor);
 }
+
 /*burger*/
 .burger div {
     width: 25px;
@@ -138,6 +138,7 @@ nav ul li a{
     top: 33px;
     right: 35px;
 }
+
 /* hero Section */
 #hero{
     height: 720px;
@@ -168,7 +169,6 @@ nav ul li a{
     background-color: var(--secondaryBackgroundColor);
     padding: var(--sectionPadding);
 }
-
 .services .pre-title{
     margin: 0 auto;
 }
@@ -196,6 +196,7 @@ nav ul li a{
 .service-icon svg {
     fill: var(--primaryIconColor);
 }
+
 /* Portfolio Styles */
 #portfolios{
     padding: var(--sectionPadding);
@@ -243,6 +244,7 @@ nav ul li a{
     padding: 0.4rem 1rem;
     color: var(--secondTextColor);
 }
+
 /* Skills & Education */
 #skills{
     padding: var(--sectionPadding);
@@ -272,6 +274,7 @@ nav ul li a{
 .education-years{
     margin-bottom: 3rem;
 }
+
 /* The dot on the line */
 .education .line div:before {
     content: "";
@@ -291,6 +294,7 @@ nav ul li a{
     line-height: 2rem;
     padding: 0 1rem;
 }
+
 /* Contact Section */
 #contact{
     padding: var(--sectionPadding);
@@ -355,6 +359,7 @@ nav ul li a{
 .contact-item-detail h4{
     margin-bottom: 0.6rem;
 }
+
 /* Footer Section */
 footer{
     padding: 4rem 0;
